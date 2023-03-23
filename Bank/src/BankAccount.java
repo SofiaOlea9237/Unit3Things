@@ -1,20 +1,25 @@
 
 public class BankAccount
 {
-    private double PersonsMoney;
-    private double MoneyOut;
-    private double MoneyIn;
-
+    private double balance;
     public BankAccount()
     {
-        PersonsMoney = 1987;
+        balance = 1987;
     }
-    public void RecordMoneyIn (double amount)
+    public BankAccount (double MyMoney)
     {
-        PersonsMoney = PersonsMoney+amount;
+        balance = MyMoney;
     }
-    public void RecordMoneyOut (double amount)
+    public void Deposit (double amount)
     {
-        PersonsMoney = PersonsMoney-amount;
+        balance = balance + amount;
+    }
+    public void Withdraw (double amount)
+    {
+        balance = balance - amount;
+    }
+    public double NewBalance()
+    {
+        return balance;
     }
 }
