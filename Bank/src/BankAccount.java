@@ -4,7 +4,7 @@ public class BankAccount
     private double balance;
     public BankAccount()
     {
-        balance = 1987;
+        balance = 2550;
     }
     public BankAccount (double MyMoney)
     {

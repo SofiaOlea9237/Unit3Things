@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Bank/Bank.iml" filepath="$PROJECT_DIR$/Bank/Bank.iml" />
       <module fileurl="file://$PROJECT_DIR$/CashRegister/CashRegister.iml" filepath="$PROJECT_DIR$/CashRegister/CashRegister.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taxes/Taxes.iml" filepath="$PROJECT_DIR$/Taxes/Taxes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit3Things.iml" filepath="$PROJECT_DIR$/Unit3Things.iml" />
     </modules>
   </component>
