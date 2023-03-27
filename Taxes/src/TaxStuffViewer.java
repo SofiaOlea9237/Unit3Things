@@ -1,20 +1,21 @@
+//NO SIRVEEEEEE
 import javax.swing.*;
 
-public class CashRegisterViewer
+public class TaxStuffViewer
 {
     public static void main(String[] args)
     {
-        CashRegister MyCashRegister = new CashRegister();
+        TaxStuff OmgImGettingTaxed = new TaxStuff();
 
         double PurchaseMoney = Double.parseDouble(JOptionPane.showInputDialog("Amount of the " +
                 "purchase"));
-        MyCashRegister.RecordPurchase(PurchaseMoney);
+        OmgImGettingTaxed.RecordPurchase(PurchaseMoney);
 
         double PaymentMoney = Double.parseDouble(JOptionPane.showInputDialog("Amount you " +
                 "will pay"));
-        MyCashRegister.ReceivePayment(PaymentMoney);
+        OmgImGettingTaxed.ReceivePayment(PaymentMoney);
 
-        double change = MyCashRegister.GiveChange();
+        double change = OmgImGettingTaxed.GiveChange();
 
         System.out.println("Purchase: $"+PurchaseMoney);
         System.out.println("Received: $"+PaymentMoney);
